@@ -283,7 +283,7 @@ echo
 #### 1.1 Source your ROS2 distro and workspace
 cd $HOME
 mkdir -p $WORKSPACE/src
-source /opt/ros/$ROS_DISTRO/setup.bash
+. ~/ros2_humble/install/local_setup.bash
 cd $WORKSPACE
 colcon build
 source $WORKSPACE/install/setup.bash
